@@ -1,0 +1,1 @@
+java  -jar ./target/file2chainscoreservice.jar 

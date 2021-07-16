@@ -1,0 +1,17 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+        max-threads: 1000
+        min-spare-threads: 30
+    port: 8020
+    context-path: /
+
+jmtc:
+  profile: D:\QQ\3021151981\FileRecv\2020-2021年第三学期\蚂蚁区块链\file2chain\profile
+
+#logging
+logging:
+  level.com.jmtc: INFO
+  level.org.springframework.web: ERROR
+  file: ./logs/bigfile.log
